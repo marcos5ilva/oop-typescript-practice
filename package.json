@@ -1,0 +1,30 @@
+{
+  "name": "oop-typescript-practice",
+  "version": "1.0.0",
+  "description": "Series of exercices on Object Oriented Programming with Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcos5ilva/oop-typescript-practice.git"
+  },
+  "keywords": [
+    "typescript",
+    "oop",
+    "object",
+    "oriented",
+    "programming",
+    "javascript"
+  ],
+  "author": "Marcos Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcos5ilva/oop-typescript-practice/issues"
+  },
+  "homepage": "https://github.com/marcos5ilva/oop-typescript-practice#readme",
+  "devDependencies": {
+    "git-commit-msg-linter": "^2.4.4"
+  }
+}
