@@ -1,16 +1,26 @@
 export class Message {
-  title: string;
-  message: string;
-  isSent: boolean;
+  private _title: string;
+  private _message: string;
+  private _isSent: boolean;
 
   constructor(title: string, message: string, isSent: boolean) {
-    this.title = title;
-    this.message = message;
-    this.isSent = false;
+    this._title = title;
+    this._message = message;
+    this._isSent = false;
+  }
+  get isSent(): boolean {
+    return this._isSent;
+  }
+  get message(): string {
+    return this._message;
   }
 
-  print(): void {
-    console.log(this.message);
+  get title(): string {
+    return this._title;
+  }
+
+  set message(value: string) {
+    this._message = value;
   }
 
   previewMessage(): string {
